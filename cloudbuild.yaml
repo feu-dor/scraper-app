@@ -1,8 +1,8 @@
 serviceAccount: "cloud-build-default@parser-data-keys.iam.gserviceaccount.com"
 
 options:
-  logging: GCS_ONLY
-  logsBucket: "gs://my-cloud-build-logs-scraper"
+  logging: NONE
+  defaultLogsBucketBehavior: REGIONAL_USER_OWNED_BUCKET
 
 steps:
 - name: "gcr.io/cloud-builders/docker"
