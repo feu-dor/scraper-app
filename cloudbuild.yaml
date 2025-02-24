@@ -1,4 +1,4 @@
-serviceAccount: "YOUR_SERVICE_ACCOUNT_EMAIL"
+serviceAccount: "253607544298-compute@developer.gserviceaccount.com"
 
 options:
   logging: CLOUD_LOGGING_ONLY
