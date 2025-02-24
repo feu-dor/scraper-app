@@ -1,7 +1,7 @@
-serviceAccount: "253607544298-compute@developer.gserviceaccount.com"
+serviceAccount: "cloud-build-default@parser-data-keys.iam.gserviceaccount.com"
 
 options:
-  logging: NONE
+  logging: GCS_ONLY
   logsBucket: "gs://my-cloud-build-logs-scraper"
 
 steps:
